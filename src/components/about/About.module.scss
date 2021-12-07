@@ -5,16 +5,38 @@
     height: 100vh;
     background-color: white;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
     .header{
         font-size: 50px;
         color: #212b31;
         height: fit-content;
         font-family: 'Roboto', sans-serif;
         font-weight: 500;
+        margin-top: 65px;
         display: flex;
         flex-direction: column;
-        margin-top: 70px;
-        border-bottom: 1px solid #212b31;
+        border-bottom: 3px solid #212b31;
     }
+    .buzzword-grid{
+        border: 1px solid blue;
+        width: 100vw;
+        height: 35vh;
+        margin-top: 10vh;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: flex-start;
+    }
+    .icon{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        border: 1px solid red;
+        color: turquoise;
+        font-weight: 500;
+        height: 10vh;
+        width: 10vh;
+    }
+    
 }
