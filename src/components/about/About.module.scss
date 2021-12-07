@@ -19,7 +19,6 @@
         border-bottom: 3px solid #212b31;
     }
     .buzzword-grid{
-        border: 1px solid blue;
         width: 100vw;
         height: 35vh;
         margin-top: 10vh;
@@ -31,12 +30,20 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: flex-start;
-        border: 1px solid red;
+        justify-content: flex-start;        
         color: turquoise;
         font-weight: 500;
-        height: 10vh;
-        width: 10vh;
+        height: 20vh;
+        width: 35vh;
+        .text{
+            color: #212b31;
+            font-family: 'Roboto', sans-serif;
+            width: 35vh;
+            font-weight: 100;
+            font-size: 20px;
+            margin-top: 15px;
+            margin-left: 50px;
+        }
     }
     
 }
