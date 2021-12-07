@@ -1,5 +1,4 @@
 import React from 'react'
-import styles from './HomeParticles.module.scss'
 import Particles from "react-tsparticles";
 
 
@@ -17,7 +16,7 @@ const HomeParticles = () => {
           options={{
             background: {
               color: {
-                value: "#708090",
+                value: "#212b31",
               },
             },
             fpsLimit: 60,
@@ -68,7 +67,7 @@ const HomeParticles = () => {
                 enable: true,
                 outMode: "bounce",
                 random: false,
-                speed: 3,
+                speed: 1,
                 straight: false,
               },
               number: {

@@ -1,6 +1,32 @@
-.welcome-text{
-    border: 1px solid white;
-    color: red;
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+.wrapper{
     position: relative;
-     z-index: 1;
+    z-index: 1;
+    width: 98vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .body{
+        color: white;
+        width: 800px;
+        height: 200px;
+        font-size: 40px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 50px;
+        font-family: 'Roboto', sans-serif;
+        .name{
+           color: turquoise;
+        }
+        .button{
+            border: 1px solid white;
+            width: 150px;
+            margin-top: 20px;
+            color: turquoise;
+            font-weight: 700;
+        }
+    }
 }
