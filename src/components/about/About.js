@@ -1,4 +1,5 @@
 import { useEffect }from 'react'
+import SkillsCloud from '../../particles/SkillsCloud'
 import styles from './About.module.scss'
 import Grid from '@mui/material/Grid'
 import CodeSharpIcon from '@mui/icons-material/CodeSharp'
@@ -11,10 +12,11 @@ import 'aos/dist/aos.css'
 const About = () => {
     
     const text = {
-         first:  'A passion for development and a can do attitude.', 
-         second: 'An eye for detail and emphasis on aesthetics',
-         third: 'Clean code and working products delivered on time',
-         fourth: 'Fast and responsive designs for applications on any platform'
+         first:  'A passion for development.', 
+         second: 'An eye for detail.',
+         third: 'Responsive design.',
+         fourth: 'clean code, on time.',
+         description: ' Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley'
     } 
     
     useEffect(()=>{Aos.init({duration: 2000})},[])
@@ -29,19 +31,50 @@ const About = () => {
     )
 
     const header = () => (
-        <div className={styles['wrapper']}>
+        <>
             <div data-aos='fade' className={styles['header']}>I Bring</div>
-            <Grid data-aos='fade' container spacing={6} className={styles['buzzword-grid']}>
-                <Grid item className={styles['buzzword-item']}>{iconDiv(<CodeSharpIcon style={{fontSize:80}}/>, text.first)}</Grid>
-                <Grid item className={styles['buzzword-item']}>{iconDiv(<VisibilityIcon style={{fontSize:80}}/>, text.second)}</Grid>
-                <Grid item className={styles['buzzword-item']}>{iconDiv(<PhoneIphoneIcon style={{fontSize:80}}/>, text.fourth)} </Grid>
-                <Grid item className={styles['buzzword-item']}>{iconDiv(<AccessTimeIcon style={{fontSize:80}}/>, text.third)} </Grid>
+            <span data-aos='fade' className={styles['underline']}></span>
+            <Grid data-aos='fade' container spacing={5} className={styles['buzzword-grid']}>
+                <Grid item className={styles['buzzword-item']}>{iconDiv(<CodeSharpIcon style={{fontSize:60}}/>, text.first)}</Grid>
+                <Grid item className={styles['buzzword-item']}>{iconDiv(<VisibilityIcon style={{fontSize:60}}/>, text.second)}</Grid>
+                <Grid item className={styles['buzzword-item']}>{iconDiv(<PhoneIphoneIcon style={{fontSize:60}}/>, text.third)} </Grid>
+                <Grid item className={styles['buzzword-item']}>{iconDiv(<AccessTimeIcon style={{fontSize:60}}/>, text.fourth)} </Grid>
             </Grid>
+        </>
+    )
+
+     const body = () => (
+         <div data-aos='fade' className={styles['body-wrapper']}>
+             <div className={styles['profile-wrapper']}>
+                 <img  src="\images\profile (2).jpg"
+                     width='300'
+                     height= '300'
+                     className={styles['photo']}>
+                </img>
+                
+                <div className={styles['description']}>
+                    <span> Who am I? </span> 
+                    <div></div>
+                    <span> I'm a full Stack Developer Based in Tel Aviv and the U.S.</span> 
+                    <span> I have an appreciation for design and a passion for problem solving. </span> 
+                    <span>Let's make something <span className={styles['great']}>great.</span> </span> 
+                </div>
+            </div>
+             <div data-aos='fade' className={styles['skills']}>
+                 <span>Skills</span>
+                 <div></div>
+                 <SkillsCloud/>
+             </div>
         </div>
      )
+
+     
      
      return ( 
-         header()
+        <div className={styles['wrapper']}>
+          {header()}
+          {body()}
+        </div>
     )
 }
 
