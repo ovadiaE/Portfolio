@@ -46,9 +46,11 @@ const About = () => {
      const body = () => (
          <div data-aos='fade' className={styles['body-wrapper']}>
              <div className={styles['profile-wrapper']}>
-                 <img  src="\images\profile (2).jpg"
+                 <img  
+                     src="\images\profile (2).jpg"
                      width='300'
                      height= '300'
+                     alt='alt'
                      className={styles['photo']}>
                 </img>
                 
@@ -71,10 +73,14 @@ const About = () => {
      
      
      return ( 
-        <div className={styles['wrapper']}>
-          {header()}
-          {body()}
-        </div>
+         <> 
+            <div data-aos='fade' className={styles['wrapper']}>
+                {header()}
+                {body()}
+            </div>
+            
+
+        </>
     )
 }
 
