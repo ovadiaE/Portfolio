@@ -1,9 +1,10 @@
-import React, { useRef } from 'react';
-import emailjs from 'emailjs-com';
+import React, { useRef } from 'react'
+import emailjs from 'emailjs-com'
 import styles from './contact.module.scss'
 import GitHubIcon from '@mui/icons-material/GitHub'
 import LinkedInIcon from '@mui/icons-material/LinkedIn'
-import Button from '@mui/material/Button';
+import Button from '@mui/material/Button'
+import 'aos/dist/aos.css'
 
  const Contact = () => {
   const form = useRef();
@@ -17,19 +18,19 @@ import Button from '@mui/material/Button';
           }, (error) => {
               console.log(error.text);
           });
+          e.target.reset()
       };
 
    
 
   return (
-    <div className={styles['contact-wrapper']}>
+    <div id='Contact' data-aos='slide-up'  className={styles['contact-wrapper']}>
         <div>Contact</div>
         <span className={styles['underline']}></span>
        
         <div className={styles['links']}>
          <LinkedInIcon style={{fontSize:30}} onClick={ e => window.location.href='https://www.linkedin.com/in/ovadia-esquenazi-650153211/' }/> 
-           
-            <GitHubIcon style={{fontSize:30}} onClick={ e => window.location.href='https://github.com/ovadiaE' }/>
+         <GitHubIcon style={{fontSize:30}} onClick={ e => window.location.href='https://github.com/ovadiaE' }/>
         </div>
        
             <form className={styles['form']} ref={form} onSubmit={sendEmail}>

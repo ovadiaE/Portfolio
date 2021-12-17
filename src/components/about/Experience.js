@@ -14,13 +14,13 @@ const Experience = () => {
 
     const projectsGrid = () => (
         <Grid container className={styles['projects-grid']} spacing={5}>
-            <Grid item> <ProjectCard/> </Grid>
-            <Grid item> <ProjectCard/> </Grid>
+            <Grid item> <ProjectCard photo={('https://i-invdn-com.investing.com/news/gold3_800x533_L_1412152987.jpg')}/> </Grid>
+            <Grid item> <ProjectCard  photo={'https://cdn.vubootcamps.com/wp-content/uploads/sites/103/2018/12/coding.jpg'}/> </Grid>
         </Grid>
     )
     
     return ( 
-        <div data-aos='fade' className={styles['projects-wrapper']}>
+        <div id='Projects' data-aos='fade' className={styles['projects-wrapper']}>
             {header()}
             {projectsGrid()}
            

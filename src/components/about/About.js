@@ -44,7 +44,7 @@ const About = () => {
     )
 
      const body = () => (
-         <div data-aos='fade' className={styles['body-wrapper']}>
+         <div data-aos='flip-up' className={styles['body-wrapper']}>
              <div className={styles['profile-wrapper']}>
                  <img  
                      src="\images\profile (2).jpg"
@@ -74,7 +74,7 @@ const About = () => {
      
      return ( 
          <> 
-            <div data-aos='fade' className={styles['wrapper']}>
+            <div id='About' data-aos='fade' className={styles['wrapper']}>
                 {header()}
                 {body()}
             </div>
