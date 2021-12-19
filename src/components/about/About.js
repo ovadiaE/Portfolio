@@ -35,10 +35,10 @@ const About = () => {
             <div data-aos='fade' className={styles['header']}>I Bring</div>
             <span data-aos='fade' className={styles['underline']}></span>
             <Grid data-aos='fade' container spacing={5} className={styles['buzzword-grid']}>
-                <Grid item className={styles['buzzword-item']}>{iconDiv(<CodeSharpIcon style={{fontSize:60}}/>, text.first)}</Grid>
-                <Grid item className={styles['buzzword-item']}>{iconDiv(<VisibilityIcon style={{fontSize:60}}/>, text.second)}</Grid>
-                <Grid item className={styles['buzzword-item']}>{iconDiv(<PhoneIphoneIcon style={{fontSize:60}}/>, text.third)} </Grid>
-                <Grid item className={styles['buzzword-item']}>{iconDiv(<AccessTimeIcon style={{fontSize:60}}/>, text.fourth)} </Grid>
+                <Grid item >{iconDiv(<CodeSharpIcon className={styles['buzzword-item']} />, text.first)}</Grid>
+                <Grid item >{iconDiv(<VisibilityIcon className={styles['buzzword-item']}/>, text.second)}</Grid>
+                <Grid item >{iconDiv(<PhoneIphoneIcon className={styles['buzzword-item']} />, text.third)} </Grid>
+                <Grid item >{iconDiv(<AccessTimeIcon className={styles['buzzword-item']} />, text.fourth)} </Grid>
             </Grid>
         </>
     )

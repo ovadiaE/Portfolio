@@ -1,13 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 .navbar{
+        padding: 0;
         z-index: 2;
-        width: 6vw;
-        height: 20vh;
+        width: 5vw;
+        height: 28vh;
         background-color: white;
-        position: relative;
         list-style: none;
         display: flex;
         flex-direction: column;
+        font-family: 'Roboto', sans-serif;
+        color: darkturquoise;
+        background-color: #182a35;
+        position: fixed;
+        cursor: pointer;
+        justify-content: space-between;
         align-items: center;
-        justify-content: space-evenly;
-        align-items: flex-start;
 }
+.menu {
+        z-index: 2; 
+        position: fixed;
+        color: turquoise;
+}
+
+@media only screen and (max-width: 500px) {
+        .navbar{
+                padding: 0;
+                z-index: 2;
+                width: 80vw;
+                height: 5vh;
+                background-color: white;
+                list-style: none;
+                display: flex;
+                flex-direction: row;
+                font-family: 'Roboto', sans-serif;
+                color: darkturquoise;
+                background-color: #182a35;
+                position: fixed;
+                cursor: pointer;
+                justify-content: space-around;
+                align-items: center;
+        }
+        .menu {
+                z-index: 2; 
+                position: fixed;
+                color: turquoise;
+        }
+        }

@@ -1,10 +1,16 @@
 import styles from './ProjectCard.module.scss'
+import ProjectDialogue from './ProjectDialogue'
 
-const ProjectCard = ({photo}) => {
+const ProjectCard = ({image}) => {
 
   return (
-    <div styles={{backgroundImage:`url${photo}`}} className={styles['card-wrapper']}>
-      <div></div>
+    <div style={{backgroundImage:`url${image}`}} className={styles['card-wrapper']}>
+      <div className={styles['description-wrapper']}>
+        <div className={styles['title']}>
+          Weight In Gold
+        </div>
+        <ProjectDialogue/> 
+      </div>
     </div>
     );
 }

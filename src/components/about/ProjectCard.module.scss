@@ -1,5 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap&family=Lora&family=Roboto&family=Titillium+Web&display=swap');
 .card-wrapper{
     width: 15vw;
     height: 30vh;
-    border: 1px solid red;
+    color: black;
+    .description-wrapper{
+        font-family: 'Roboto', sans-serif;
+        opacity: 0;
+        width: 15vw;
+        height: 30vh;
+         display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .description-wrapper:hover{
+        opacity: 1;
+        transition: opacity .25s ease-in-out;
+        -moz-transition: opacity .25s ease-in-out;
+        -webkit-transition: opacity .25s ease-in-out;
+    }
+    .title{
+        color: black;
+        font-size: 2rem;
+        font-family: 'Asap', sans-serif;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .card-wrapper{
+        width: 40vw;
+        height: 20vh;
+        color: black;
+        .description-wrapper{
+            font-family: 'Roboto', sans-serif;
+            opacity: 0;
+            width: 40vw;
+            height: 20vh;
+             display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;         
+        }
+        .title{
+            color: black;
+            font-size: 1.4rem;
+            font-family: 'Asap', sans-serif;
+        }
+    }
+
 }

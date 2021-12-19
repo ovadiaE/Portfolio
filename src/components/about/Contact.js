@@ -30,7 +30,7 @@ import 'aos/dist/aos.css'
        
         <div className={styles['links']}>
          <LinkedInIcon style={{fontSize:30}} onClick={ e => window.location.href='https://www.linkedin.com/in/ovadia-esquenazi-650153211/' }/> 
-         <GitHubIcon style={{fontSize:30}} onClick={ e => window.location.href='https://github.com/ovadiaE' }/>
+         <GitHubIcon style={{fontSize:30}} onClick={ e => window.location.href='https://github.com/ovadiaE'  }/>
         </div>
        
             <form className={styles['form']} ref={form} onSubmit={sendEmail}>
