@@ -55,7 +55,6 @@ body{
             color: white;
             font-family: 'Roboto', sans-serif;
             font-weight: 100;
-            font-size: 20px;
             margin-top: 15px;
             display: flex;
             justify-content: center;
@@ -86,11 +85,10 @@ body{
                  display: flex;
                  align-items: center;
                  flex-direction: column;
-                 font-size: 1rem;
                  color: white;
                  font-family: 'Roboto', sans-serif;
                  height: 40vh;
-                 width: 70vh;
+                 width: 70vw;
                 :first-child{
                     color: #00CED1;
                     font-size: 1.4rem;
