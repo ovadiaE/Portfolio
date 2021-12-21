@@ -19,7 +19,7 @@ const HomeParticles = () => {
                 value: "#212b31",
               },
             },
-            fpsLimit: 100,
+            fpsLimit: 30,
             interactivity: {
               events: {
                 onClick: {
@@ -36,7 +36,7 @@ const HomeParticles = () => {
                 bubble: {
                   distance: 400,
                   duration: 2,
-                  opacity: 0.8,
+                  opacity: 1,
                   size: 40,
                 },
                 push: {

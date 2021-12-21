@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora&family=Roboto&display=swap');
 body{
     overflow-x: hidden;
+    overscroll-behavior: contain;
 }
 .wrapper{
     position: relative;
