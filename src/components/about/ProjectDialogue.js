@@ -4,7 +4,6 @@ import Dialog from '@mui/material/Dialog'
 import DialogContent from '@mui/material/DialogContent'
 import DialogActions from '@mui/material/DialogActions'
 import styles from './ProjectDialogue.module.scss'
-import { descriptions } from '../../project-descriptions/project-descriptions'
 
 export default function AlertDialog() {
   const [open, setOpen] = React.useState(false);
@@ -20,7 +19,7 @@ export default function AlertDialog() {
   return (
     <div className={styles['dialogue-wrapper']}>
       <Button className={styles['dialogue-button']} variant="outlined" onClick={handleClickOpen}>
-        Learn More
+       Weight In Gold
       </Button>
       <Dialog
         open={open}

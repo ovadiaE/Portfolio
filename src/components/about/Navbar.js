@@ -12,7 +12,7 @@ const Navbar= () => {
 const menuControl = () => setShowMenu(!showMenu)
  
 const navBar = () => (
-    <ul data-aos='slide-left' className={styles['navbar']}>
+    <ul data-aos='slide-right' className={styles['navbar']}>
        <li><CloseIcon onClick={ menuControl}/> </li>
       <li><Link activeClass="active" to="home" spy={true} smooth={true}>Home</Link></li>
       <li><Link  to="About" spy={true} smooth={true}>About</Link></li>
