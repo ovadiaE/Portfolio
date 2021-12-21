@@ -66,13 +66,16 @@
             font-family: 'Roboto', sans-serif;
         }
         :nth-child(7){
-            margin-top: 3vh;
+            all: unset;
             font-family: 'Roboto', sans-serif;
-            width: 10vw;
-            color: turquoise;
-            border: 1px solid turquoise;
+            width: 30vw;
+            height: 14vh;
+            background-color: #2e404d;
+            margin-bottom: 2vh;
+            color: white
         }
     }
+    
 }
 
 @media only screen and (max-width: 500px) {

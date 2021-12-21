@@ -39,7 +39,7 @@ import 'aos/dist/aos.css'
                 <label></label>
                 <input placeholder="Email" type="email" name="user_email" />
                 <label></label>
-                <textarea placeholder="Message" name="message" />
+                <textarea className={styles['message']} placeholder="Message" type="text" name="message" />
                 <Button type="submit"variant="outlined" value="Send">Send</Button>
             </form>
       
