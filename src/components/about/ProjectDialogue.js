@@ -30,11 +30,15 @@ export default function AlertDialog() {
       >
         <DialogContent>
          <div className={styles['project-description-wrapper']}>
-           Weight in Gold is an interactive art installation on display as part of Atelier Benito's Joy of Life Exhibit. 
-           It provides the user with the value of their weight in gold calculated in real time.
-           <br></br>
-           <a href='https://www.instagram.com/p/CW9HxhAAoS6/'>Weight in Gold</a>
-         </div>
+            Weight in Gold is an interactive art installation on display as part of Atelier Benito's Joy of Life Exhibit. 
+            It provides the user with the value of their weight in gold calculated in real time.
+            <br></br>
+            <a href='https://www.instagram.com/p/CW9HxhAAoS6/'>Weight in Gold</a>
+            <br></br>
+            <a href='https://github.com/ovadiaE/weight-in-gold-frontend'>Frontend</a>
+            <br></br>
+            <a href='https://github.com/ovadiaE/Weight-In-Gold'>Backend</a>
+          </div>
         </DialogContent>
         <DialogActions>
           <Button className={styles['button']} onClick={handleClose}>close</Button>
