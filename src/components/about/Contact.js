@@ -24,7 +24,7 @@ import 'aos/dist/aos.css'
    
 
   return (
-    <div id='Contact' data-aos='slide-up'  className={styles['contact-wrapper']}>
+    <div id='Contact'  className={styles['contact-wrapper']}>
         <div>Contact</div>
         <span className={styles['underline']}></span>
        
