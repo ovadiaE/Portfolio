@@ -19,7 +19,7 @@ const HomeParticles = () => {
                 value: "#212b31",
               },
             },
-            fpsLimit: 130,
+            fpsLimit: 30,
             interactivity: {
               events: {
                 onClick: {

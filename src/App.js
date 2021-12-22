@@ -4,19 +4,15 @@ import Experience from './components/about/Experience'
 import Contact from './components/about/Contact'
 import Navbar from "./components/about/Navbar";
 
-    
 const App = () => {
     return (
-        <>
-   
-            <Navbar/>
-            <Homepage/>
-             <About/>
-             <Experience/>
-             <Contact/>
-    
-      
-        </>
+    <>
+        <Navbar/>
+        <Homepage/>
+        <About/>
+        <Experience/>
+        <Contact/>
+    </>
     )
 }
 
