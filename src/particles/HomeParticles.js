@@ -19,7 +19,7 @@ const HomeParticles = () => {
                 value: "#212b31",
               },
             },
-            fpsLimit: 160,
+            fpsLimit: 30,
             interactivity: {
               events: {
                 onClick: {
@@ -39,9 +39,6 @@ const HomeParticles = () => {
                   opacity: 1,
                   size: 40,
                 },
-                push: {
-                  quantity: 4,
-                },
                 repulse: {
                   distance: 200,
                   duration: 0.4,
@@ -56,7 +53,7 @@ const HomeParticles = () => {
                 color: "#ffffff",
                 distance: 150,
                 enable: true,
-                opacity: 0.5,
+                opacity: 0.8,
                 width: 1,
               },
               collisions: {
@@ -73,7 +70,7 @@ const HomeParticles = () => {
               number: {
                 density: {
                   enable: true,
-                  value_area: 800,
+                  value_area: 1000,
                 },
                 value: 80,
               },
@@ -85,7 +82,7 @@ const HomeParticles = () => {
               },
               size: {
                 random: true,
-                value: 2,
+                value: 1,
               },
             },
             detectRetina: true,
