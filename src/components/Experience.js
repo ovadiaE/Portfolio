@@ -22,10 +22,8 @@ const Experience = () => {
         <div id='Projects' data-aos='fade' className={styles['projects-wrapper']}>
             {header()}
             {projectsGrid()}
-           
-            
         </div>
-    )
-}
+        )
+    }
 
 export default Experience

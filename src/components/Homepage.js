@@ -1,5 +1,5 @@
 import React from 'react'
-import HomeParticles from '../../particles/HomeParticles'
+import HomeParticles from '../graphics/HomeParticles'
 import styles from './Homepage.module.scss'
 import Button from '@mui/material/Button'
 import {Link} from 'react-scroll'

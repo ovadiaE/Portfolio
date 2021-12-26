@@ -6,29 +6,26 @@ import DialogActions from '@mui/material/DialogActions'
 import styles from './ProjectDialogue.module.scss'
 
 export default function AlertDialog() {
-  const [open, setOpen] = React.useState(false);
+  const [open, setOpen] = React.useState(false)
 
-  const handleClickOpen = () => {
-    setOpen(true);
-  };
+  const handleClickOpen = () => {setOpen(true)}
 
-  const handleClose = () => {
-    setOpen(false);
-  };
+  const handleClose = () => {setOpen(false)}
 
-  return (
-    <div className={styles['dialogue-wrapper']}>
-      <Button className={styles['dialogue-button']} variant="outlined" onClick={handleClickOpen}>
-       Weight In Gold
-      </Button>
-      <Dialog
-        open={open}
-        onClose={handleClose}
-        aria-labelledby="alert-dialog-title"
-        aria-describedby="alert-dialog-description"
-        maxWidth="xl"
-      >
-        <DialogContent>
+  const closeDialogue = () => (
+    <DialogActions>
+      <Button className={styles['button']} onClick={handleClose}>close</Button>
+    </DialogActions>
+  )
+
+  const openDialogue = () => (
+    <Button className={styles['dialogue-button']} variant="outlined" onClick={handleClickOpen}>
+      Weight In Gold
+    </Button>
+  )
+
+  const dialogueContent = () => (
+    <DialogContent>
          <div className={styles['project-description-wrapper']}>
             Weight in Gold is an interactive art installation on display as part of Atelier Benito's Joy of Life Exhibit. 
             It provides the user with the value of their weight in gold calculated in real time.
@@ -39,10 +36,24 @@ export default function AlertDialog() {
             <br></br>
             <a href='https://github.com/ovadiaE/Weight-In-Gold'>Backend</a>
           </div>
-        </DialogContent>
-        <DialogActions>
-          <Button className={styles['button']} onClick={handleClose}>close</Button>
-        </DialogActions>
+    </DialogContent>
+  )
+
+
+
+
+
+  return (
+    <div className={styles['dialogue-wrapper']}>
+      {openDialogue()}
+      <Dialog
+        open={open}
+        onClose={handleClose}
+        aria-labelledby="alert-dialog-title"
+        aria-describedby="alert-dialog-description"
+        maxWidth="xl">
+        {dialogueContent()}
+        {closeDialogue()}
       </Dialog>
     </div>
   );

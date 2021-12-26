@@ -1,8 +1,8 @@
-import Homepage from "./components/homepage/Homepage"
-import About from './components/about/About'
-import Experience from './components/about/Experience'
-import Contact from './components/about/Contact'
-import Navbar from "./components/about/Navbar";
+import Homepage from "./components/Homepage"
+import About from './components/About'
+import Experience from './components/Experience'
+import Contact from './components/Contact'
+import Navbar from "./components/Navbar";
 
 const App = () => {
     return (
