@@ -9,7 +9,6 @@ const data = [
     { value: 'HTML5', count: 33 },
     { value: 'CSS3', count: 20 },
     { value: 'Webpack', count: 22 },
-    { value: 'Babel.js', count: 7 },
     { value: 'MYSQL', count: 25 },
     { value: 'Material UI', count: 17 },
     { value: 'Bootstrap', count: 15 },

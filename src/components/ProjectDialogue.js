@@ -5,7 +5,7 @@ import DialogContent from '@mui/material/DialogContent'
 import DialogActions from '@mui/material/DialogActions'
 import styles from './ProjectDialogue.module.scss'
 
-export default function AlertDialog() {
+export default function ProjectDialog({projectName, projectDescription, projectLink, frontend, backend}) {
   const [open, setOpen] = React.useState(false)
 
   const handleClickOpen = () => {setOpen(true)}
@@ -20,21 +20,20 @@ export default function AlertDialog() {
 
   const openDialogue = () => (
     <Button className={styles['dialogue-button']} variant="outlined" onClick={handleClickOpen}>
-      Weight In Gold
+      {projectName}
     </Button>
   )
 
   const dialogueContent = () => (
     <DialogContent>
          <div className={styles['project-description-wrapper']}>
-            Weight in Gold is an interactive art installation on display as part of Atelier Benito's Joy of Life Exhibit. 
-            It provides the user with the value of their weight in gold calculated in real time.
+          {projectDescription}
             <br></br>
-            <a href='https://www.instagram.com/p/CW9HxhAAoS6/'>Weight in Gold</a>
+            <a href={projectLink}>{projectName}</a>
             <br></br>
-            <a href='https://github.com/ovadiaE/weight-in-gold-frontend'>Frontend</a>
+            <a href={frontend}>Frontend</a>
             <br></br>
-            <a href='https://github.com/ovadiaE/Weight-In-Gold'>Backend</a>
+            { backend ? <a href={backend}>Backend</a> : null}
           </div>
     </DialogContent>
   )
