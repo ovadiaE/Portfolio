@@ -1,4 +1,6 @@
 import React, {useState, useEffect} from "react";
+import HomeParticles from "./particles/HomeParticles";
+
 import {
   Main,
   Timeline,
@@ -27,17 +29,23 @@ function App() {
       }, []);
 
     return (
-    <div className={`main-container ${mode === 'dark' ? 'dark-mode' : 'light-mode'}`}>
-        <Navigation parentToChild={{mode}} modeChange={handleModeChange}/>
-        <FadeIn transitionDuration={700}>
-            <Main/>
-            <Expertise/>
-            <Timeline/>
-            <Project/>
-            <Contact/>
-        </FadeIn>
-        <Footer />
-    </div>
+        <>
+             <div className={`main-container ${mode === 'dark' ? 'dark-mode' : 'light-mode'}`}>
+                
+                <div className={'particle-container'}> 
+                    <HomeParticles/>
+                </div>
+                <FadeIn>
+                <Navigation parentToChild={{mode}} modeChange={handleModeChange}/>
+                <Main/>
+                <Expertise/>
+                <Timeline/>
+                <Project/>
+                <Contact/>
+                <Footer />
+                </FadeIn>
+            </div>
+         </>
     );
 }
 

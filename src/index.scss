@@ -16,7 +16,7 @@ code {
 .main-container {
   position: relative;
   background-color: #0d1116;
-
+  // opacity: 0.3;
 }
 
 a {
@@ -112,9 +112,6 @@ p, a, h1, h2, h3, h4, h5, label, button {
     color: #0d1116;
   }
 
-  .about-section {
-    background-image: url("./assets/images/bg-light.png");
-  }
 
   .skills-container svg {
     color: #0d1116;
@@ -153,3 +150,7 @@ p, a, h1, h2, h3, h4, h5, label, button {
     }
   }
 }
+
+// .particle-container{
+//   z-index: -100;
+// }
