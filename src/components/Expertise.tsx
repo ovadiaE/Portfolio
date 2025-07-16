@@ -40,7 +40,8 @@ const labelsFourth = [
     "Black Box testing",
     "load testing", 
     "latency testing",
-    "Jira"
+    "Jira",
+    "project management"
 ];
 
 
