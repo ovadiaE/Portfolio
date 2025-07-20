@@ -62,6 +62,7 @@
     ]
   },
   "devDependencies": {
+    "@types/minimatch": "^6.0.0",
     "@types/react-vertical-timeline-component": "^3.3.6"
   }
 }

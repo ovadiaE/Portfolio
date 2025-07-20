@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "types": ["minimatch"],
     "target": "es5",
     "lib": [
       "dom",
