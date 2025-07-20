@@ -1,0 +1,6 @@
+[build]
+  command = "npm run build"
+  publish = "build"
+
+[build.environment]
+  SECRETS_SCAN_OMIT_KEYS = "REACT_APP_EMAIL_SERVICE_ID,REACT_APP_EMAIL_TEMPLATE_ID,REACT_APP_EMAIL_API_KEY"
