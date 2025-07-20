@@ -2,7 +2,6 @@
   "name": "ovi-portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "ovi-portfolio",
   "engines": {
     "node": "16"
   },
