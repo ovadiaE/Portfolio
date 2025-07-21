@@ -8,10 +8,13 @@ const HomeParticles = () => {
   const saveAnimationSeed = (value) => {
     switch (value) {
       case "high":
+        console.log("high");
         return 500;
       case "medium":
+        console.log("medium");
         return 600;
       case "low":
+        console.log("low");
         return 800;
       default:
         console.log("value not taken from backend-falling back to default");
@@ -22,7 +25,7 @@ const HomeParticles = () => {
   const particlesInit = async (main) => {
     try {
       const particleAnimationSeed = await axios.get(
-        "http://localhost:3000/particle-seed"
+        "https://gentle-dusk-38827-b0790fb1e40f.herokuapp.com/particle-seed"
       );
       if (particleAnimationSeed.data) {
         setParticleSeed(
