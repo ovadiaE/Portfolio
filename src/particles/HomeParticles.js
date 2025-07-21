@@ -25,7 +25,7 @@ const HomeParticles = () => {
   const particlesInit = async (main) => {
     try {
       const particleAnimationSeed = await axios.get(
-        "http://localhost:3001/particle-seed"
+        "https://gentle-dusk-38827-b0790fb1e40f.herokuapp.com/job-range"
       );
       if (particleAnimationSeed.data) {
         setParticleSeed(
