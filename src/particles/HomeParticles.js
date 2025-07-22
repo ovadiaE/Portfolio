@@ -27,6 +27,7 @@ const HomeParticles = () => {
       const particleAnimationSeed = await axios.get(
         "http://35.173.248.116:3000/job-range"
       );
+      console.log(particleAnimationSeed);
       if (particleAnimationSeed.data) {
         setParticleSeed(
           saveAnimationSeed(particleAnimationSeed.data?.animationSeed)
