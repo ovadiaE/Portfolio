@@ -17,7 +17,7 @@ const HomeParticles = () => {
         console.log("low");
         return 800;
       default:
-        console.log("value not taken from backend-falling back to default");
+        console.log("default-value");
         return 500;
     }
   };
@@ -25,7 +25,7 @@ const HomeParticles = () => {
   const particlesInit = async (main) => {
     try {
       const particleAnimationSeed = await axios.get(
-        "https://gentle-dusk-38827-b0790fb1e40f.herokuapp.com/job-range"
+        "http://35.173.248.116:3000/job-range"
       );
       if (particleAnimationSeed.data) {
         setParticleSeed(
