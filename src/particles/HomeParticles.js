@@ -34,7 +34,7 @@ const HomeParticles = () => {
         );
       }
     } catch (err) {
-      console.log(err);
+      console.log("request failed: ", err);
     }
   };
 
