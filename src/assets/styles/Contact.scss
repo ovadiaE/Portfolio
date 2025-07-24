@@ -1,10 +1,10 @@
-.contact{ 
-  z-index: 10;
-}
 input, textarea {
   color: black !important;
   background-color: white !important;
   z-index: 10 !important;
+}
+.contact_wrapper{
+  z-index: 1;
 }
 
 .contact_wrapper svg {

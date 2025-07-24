@@ -20,10 +20,10 @@ function Timeline() {
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">QA and Automations Engineer</h3>
+            <h3 className="vertical-timeline-element-title">QA Engineer at Autofleet</h3>
             <h4 className="vertical-timeline-element-subtitle">Tel Aviv</h4>
             <p>
-              load testing, API testing, incidence management, DevOps Activities
+              Wrote manual test cases for platfrom spannning, infastructural changes, always sought out to grow as an engineer, consulted with data scientists and full stack, coded many personal projects to improve my workflow.
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
@@ -32,10 +32,10 @@ function Timeline() {
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Full-stack consultant</h3>
+            <h3 className="vertical-timeline-element-title">Full-stack Engineer at MDCalc</h3>
             <h4 className="vertical-timeline-element-subtitle">New York</h4>
             <p>
-              Full-stack Development, Responsive Design, API Development, release management, QA
+              Rebuilt company site with Next.js, focused on SSR and improved average page load speed by 30%.
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
@@ -44,10 +44,10 @@ function Timeline() {
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Full-stack Intern</h3>
+            <h3 className="vertical-timeline-element-title">Full-stack Engineer Intern at Lagoon</h3>
             <h4 className="vertical-timeline-element-subtitle">Tel Aviv</h4>
             <p>
-              Software engineering, CSS, data visualization, agile methodology
+              Built dashboard components with react and d3.js for presenting historical data in no-code financial analysis platform. 
             </p>
           </VerticalTimelineElement>
         </VerticalTimeline>
