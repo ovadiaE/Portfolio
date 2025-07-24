@@ -23,7 +23,9 @@ function Timeline() {
             <h3 className="vertical-timeline-element-title">QA Engineer at Autofleet</h3>
             <h4 className="vertical-timeline-element-subtitle">Tel Aviv</h4>
             <p>
-              Wrote manual test cases for platfrom spannning, infastructural changes, always sought out to grow as an engineer, consulted with data scientists and full stack, coded many personal projects to improve my workflow.
+              Wrote manual test cases for platfrom spannning, infastructural changes, always sougseekinght to learn, 
+              I consulted with data scientists and full stack engineers, and coded many personal projects to improve 
+              my workflow.
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement

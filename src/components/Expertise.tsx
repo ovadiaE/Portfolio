@@ -60,7 +60,7 @@ function Expertise() {
                     <FontAwesomeIcon icon={faReact} size="3x"/>
                     <h3>Full Stack Web Development</h3>
                     <p>
-                        I've built a many web applications using modern frameworks and libraries, 
+                        I build web applications using modern frameworks and libraries, 
                         notably Next.js, Node, and TypeScript. I bring full-stack skills, a high level 
                         understanding of the SDLC process and a specialization in software testing.
                     </p>
@@ -76,7 +76,7 @@ function Expertise() {
                     <FontAwesomeIcon icon={faDocker} size="3x"/>
                     <h3>DevOps & Automation</h3>
                     <p>
-                       I love platform infastructure. From analyzing network traffic for route cause analysis to 
+                       I love platform infastructure. From analyzing network traffic for root cause analysis to 
                         managing deployments, updating deployment pipelines and working with containerization tools, 
                         I'm obsessed with all things DevOps.
                     </p>
