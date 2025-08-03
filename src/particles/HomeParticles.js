@@ -34,7 +34,7 @@ const HomeParticles = () => {
         );
       }
     } catch (err) {
-      console.log("request failed: ", err);
+      console.log("particles-init-unresponsive. falling back to default");
     }
   };
 
