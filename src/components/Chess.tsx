@@ -10,7 +10,7 @@ function Chess() {
 
             <div className="puzzle-container">
              <h1>Lichess - Live Arena</h1>
-             <iframe src="https://lichess.org/tv/frame?theme=brown&bg=dark" frameBorder="0"></iframe>            
+             <iframe title="lichess-arena" src="https://lichess.org/tv/frame?theme=brown&bg=dark" frameBorder="0"></iframe>            
             </div>
         </div>  
     );
