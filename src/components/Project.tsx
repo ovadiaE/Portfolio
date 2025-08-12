@@ -36,10 +36,6 @@ function Project() {
                 <a href="https://www.youtube.com/watch?v=vQlLMrld96I&list=PLhPlapkNZB7aJrm6cVO8iXg3PRVt6OfOc" target="_blank" rel="noreferrer"><h2>The WIG interactive sculpture</h2></a>
                 <p>Provided POC and animation consulting for sculpture displayed at Art Miami</p>
             </div>
-            <div className="project">
-            <iframe title="chess-iframe" id="13665828" frameBorder="0" style={{width:"100%", height: "60%", border:"none"}} src="https://www.chess.com/emboard?id=13665828"></iframe>
-            <a href="https://www.chess.com/emboard?id=13665828" target="_blank" rel="noreferrer"><h2>Check out my last game of chess</h2></a>
-            </div>
         </div>
     </div>
     );

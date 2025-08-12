@@ -1,0 +1,43 @@
+.chess-container {
+    position: relative;
+    z-index: 10;
+    padding: 5% 10%;
+    text-align: left;
+    display: flex;
+    flex-wrap:wrap;
+    align-items: center;
+    flex-direction: row;
+    gap: 1rem;
+}
+.puzzle-container{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   width: 150%; 
+   max-width: 100%;
+   text-align: left;
+   flex: 1 1 calc(50% - 1rem); /* 2 per row with gap taken into account */
+
+}
+
+.puzzle-container h1 {
+    font-size: clamp(1rem, 5vw, 2.5rem);
+    line-height: 1.2;
+    margin: 0.5em 0;
+    text-align: center;
+    word-wrap: break-word;  
+    width: 100%;
+    text-align: left    
+}
+
+.puzzle-container iframe {
+    width: 100%;
+    height:400px;
+    display: block;
+}
+
+.puzzle-container iframe:hover {
+    transform: scale(1.05);
+    z-index: 10;
+
+}

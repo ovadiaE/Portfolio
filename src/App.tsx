@@ -2,6 +2,7 @@ import React, {useState, useEffect} from "react";
 import HomeParticles from "./particles/HomeParticles";
 
 import {
+  Chess,
   Main,
   Timeline,
   Expertise,
@@ -41,6 +42,7 @@ function App() {
                 <Expertise/>
                 <Timeline/>
                 <Project/>
+                <Chess/>
                 <Contact/>
                 <Footer />
                 </FadeIn>
