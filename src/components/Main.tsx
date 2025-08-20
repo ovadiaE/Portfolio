@@ -20,7 +20,7 @@ function Main() {
             </div>
             <h1 className='mobile-h1'>Ovi</h1>
             <h1 className='full-size-h1'>Ovadia Esquenazi</h1>
-            <p>Software Engineering | QA and Automations</p>
+            <p>Software Engineer</p>
 
             <div className="mobile_social_icons">
               <a href="https://github.com/ovadiaE" target="_blank" rel="noreferrer"><GitHubIcon/></a>
