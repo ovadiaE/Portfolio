@@ -23,7 +23,7 @@ function Timeline() {
             <h3 className="vertical-timeline-element-title">QA Engineer at Autofleet</h3>
             <h4 className="vertical-timeline-element-subtitle">Tel Aviv</h4>
             <p>
-              Wrote manual test cases for platfrom spannning, infastructural changes, always seeking to learn, 
+              Wrote manual test cases for platform spannning, infastructural changes, always seeking to learn, 
               I consulted with data scientists and full stack engineers, and coded many personal projects to improve 
               my workflow. All while gaining an inside look at Product team workflows and gaining a deep understanding of manual testing processes.
             </p>
