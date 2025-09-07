@@ -21,6 +21,13 @@
     margin: 10px 0 0 0;
     z-index: 1000;
     cursor: pointer;
+    height: fit-content
+  }
+
+  .held-piece {
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
   }
 
   .touch-controls{ 

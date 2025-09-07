@@ -67,10 +67,10 @@ function TetrisMobile() {
                     </button>
                   </div>
                 )}
-                <div className="mobile-top-section-container">
+                <div className="held-piece">
                   <HeldPiece />
+                  <MobileControls controller={tetrisCtrl} /> 
                 </div>
-              <MobileControls controller={tetrisCtrl} /> 
               <Gameboard />
               <MobileControls controller={tetrisCtrl} /> 
             </div>
