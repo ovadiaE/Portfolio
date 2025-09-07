@@ -5,7 +5,6 @@ import { useState, useEffect } from 'react';
 function TetrisMobile() {
     
   const [controller, setController] = useState<any>(null);
-  const [width, setWidth] = useState(window.innerWidth);
   
   const MobileControls = ({ controller }: { controller: any }) => (
     <div className="mobile-controls-container"> 
@@ -27,13 +26,6 @@ function TetrisMobile() {
       </div>
     </div>
   );
-  
-
-  useEffect(() => {
-    const handleResize = () => setWidth(window.innerWidth);
-    window.addEventListener('resize', handleResize);
-    return () => window.removeEventListener('resize', handleResize); // Cleanup
-  }, []);
 
   const restartGame = () => {
     if (controller) {

@@ -4,6 +4,8 @@ import { useState, useEffect } from 'react';
 
 function TetrisDesktop() {
 
+  const [controller, setController] = useState<any>(null);
+  
   const DesktopControls = () => (
     <>
       <p><strong>Controls:</strong></p>
@@ -13,15 +15,6 @@ function TetrisDesktop() {
       <p>Shift / C: hold piece</p>
     </>
   );
-  
-  const [controller, setController] = useState<any>(null);
-  const [width, setWidth] = useState(window.innerWidth);
-
-  useEffect(() => {
-    const handleResize = () => setWidth(window.innerWidth);
-    window.addEventListener('resize', handleResize);
-    return () => window.removeEventListener('resize', handleResize); // Cleanup
-  }, []);
 
   // Pause the game as soon as controller becomes available
   useEffect(() => {
