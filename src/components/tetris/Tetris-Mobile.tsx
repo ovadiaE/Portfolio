@@ -1,6 +1,6 @@
 import '../../assets/styles/Tetris-mobile.scss';
 import Tetris from 'react-tetris';
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 
 function TetrisMobile() {
     
