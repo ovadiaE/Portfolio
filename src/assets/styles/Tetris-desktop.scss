@@ -3,8 +3,8 @@
   z-index: 10;
   display: flex; 
   flex-direction: row;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-evenly;
+  align-items: flex-start;
   max-width: 100% !important;
   gap: 30px;
 }
