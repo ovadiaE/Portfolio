@@ -70,6 +70,7 @@ function TetrisMobile() {
                 <div className="mobile-top-section-container">
                   <HeldPiece />
                 </div>
+              <MobileControls controller={tetrisCtrl} /> 
               <Gameboard />
               <MobileControls controller={tetrisCtrl} /> 
             </div>

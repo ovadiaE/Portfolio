@@ -15,6 +15,8 @@
     height: 300px;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
     padding: 0;
     margin: 10px 0 0 0;
     z-index: 1000;
@@ -25,7 +27,8 @@
     display: flex;
     height: 50%;
     flex-direction: column;
-    margin-top: -9px;
+    width: 100%
+
   }
 
   .top-key{
@@ -41,6 +44,7 @@
     justify-content: space-evenly;
     width: 100%;
     margin: 10px 0 20px 0;    
+    width: 100%;
   }
 
   .top-key p {
