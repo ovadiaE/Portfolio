@@ -6,8 +6,7 @@
     justify-content: center;
     align-items: center;
     max-width: 100% !important;
-    border: 1px solid red;
-    height: 900px;
+    height: 890px;
 
   }
 
@@ -22,21 +21,11 @@
     cursor: pointer;
   }
 
-  .drop-save {
-    font-family: 'Courier Prime', monospace;
-    color: white;
-    display: flex;
-    justify-content: space-around;
-    height: fit-content;
-    width: 100%;
-    margin: 10px 0 0 0;
-  }
-
   .touch-controls{ 
     display: flex;
-    height: 80%;
-    margin: 2%;
+    height: 50%;
     flex-direction: column;
+    margin-top: -9px;
   }
 
   .top-key{
@@ -45,8 +34,17 @@
     justify-content: center;
     align-items: center;
     margin: 0;
-    padding: 0
-    
+    padding: 0; 
+
+    font-family: 'Courier Prime', monospace;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    margin: 10px 0 20px 0;    
+  }
+
+  .top-key p {
+    color: white;
   }
 
   .top-key span {

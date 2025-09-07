@@ -8,14 +8,11 @@ function TetrisMobile() {
   
   const MobileControls = ({ controller }: { controller: any }) => (
     <div className="mobile-controls-container"> 
-      <div className="drop-save">
-        <span onClick={() => controller?.hardDrop()}>drop</span>
-        <span onClick={() => controller?.hold()}>save</span>
-      </div>
-  
       <div className="touch-controls"> 
         <div className="top-key"> 
+        <p onClick={() => controller?.hardDrop()}>drop</p>
           <span onClick={() => controller?.flipClockwise()}>⟳</span>
+          <p onClick={() => controller?.hold()}>save</p>
         </div>
   
         <div className="bottom-keys"> 
