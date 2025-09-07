@@ -6,6 +6,10 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-size: 1.1rem !important;
+  overflow-x: hidden !important;
+  box-sizing: border-box;
+
+
 }
 
 code {
@@ -16,6 +20,8 @@ code {
 .main-container {
   position: relative;
   background-color: #0d1116;
+  max-width: 100% !important;
+  overflow-x: hidden !important;
   // opacity: 0.3;
 }
 

@@ -6,3 +6,4 @@ export { default as Timeline } from "./Timeline";
 export { default as Project } from "./Project";
 export { default as Contact } from "./Contact";
 export { default as Chess } from "./Chess";
+export { default as Tetris } from "./tetris/Tetris";

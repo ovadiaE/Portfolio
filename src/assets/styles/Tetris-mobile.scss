@@ -1,0 +1,132 @@
+.mobile-board-container {
+    position: relative;
+    z-index: 10;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 100% !important;
+  }
+
+  .mobile-controls-container{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 10px 0 0 0;
+    z-index: 1000;
+    cursor: pointer;
+  }
+
+  .drop-save {
+    font-family: 'Courier Prime', monospace;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    height: fit-content;
+    width: 100%;
+    margin: 10px 0 0 0;
+  }
+
+  .touch-controls{ 
+    display: flex;
+    height: 80%;
+    margin: 2%;
+    flex-direction: column;
+  }
+
+  .top-key{
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0
+    
+  }
+
+  .top-key span {
+    border: 1px solid black; 
+    height: 30px; 
+    width: 30px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+
+  .bottom-keys{
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+    gap: 7px
+  }
+
+  .bottom-keys span {
+    height: 30px; 
+    width: 30px;
+    border: 1px solid black;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+ 
+  .board-container {
+    display: flex;
+    gap: 30px
+  
+  }
+  
+  .game-block {
+      margin: 0;
+      padding: 0;
+      width: 1.5em;
+      height: 1.5em;
+      border: 1px solid black;
+    }
+
+    .play-button{ 
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+    }
+    .play-button h2 {
+      width: fit-content;
+    }
+
+    .piece-i {
+      background-color: #ec858b;
+    }
+    .piece-j {
+      background-color: #f1b598;
+    }
+    .piece-l {
+      background-color: #f8efae;
+    }
+    .piece-o {
+      background-color: #b5a677;
+    }
+    .piece-s {
+      background-color: #816e56;
+    }
+    .piece-t {
+      background-color: #b77c72;
+    }
+    .piece-z {
+      background-color: #e3be58;
+    }
+    .piece-preview {
+      background-color: #eee;
+    } 

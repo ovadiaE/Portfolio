@@ -8,6 +8,8 @@
     align-items: center;
     flex-direction: row;
     gap: 1rem;
+    width: 100% !important;
+    box-sizing: border-box;
 }
 .puzzle-container{
    display: flex;
@@ -17,6 +19,7 @@
    max-width: 100%;
    text-align: left;
    flex: 1 1 calc(50% - 1rem); /* 2 per row with gap taken into account */
+   width: 100% !important;
 
 }
 
@@ -35,6 +38,7 @@
     height:400px;
     display: block;
     background-color: 'transparent';
+    // width: 100% !important;
 }
 
 .puzzle-container iframe:hover {
