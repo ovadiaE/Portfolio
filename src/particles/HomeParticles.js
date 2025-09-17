@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Particles from "react-tsparticles";
-import axios from "axios";
+// import axios from "axios";
 
 const HomeParticles = () => {
   const [particleSeed, setParticleSeed] = useState("");
@@ -21,24 +21,32 @@ const HomeParticles = () => {
         return 500;
     }
   };
+  //commenting until amazon EC2 instance back online
+  // const particlesInit = async (main) => {
+  //   try {
+  //     const particleAnimationSeed = await axios.get(
+  //       "http://35.173.248.116:3000/job-range"
+  //     );
+  //     if (particleAnimationSeed.data) {
+  //       setParticleSeed(
+  //         saveAnimationSeed(particleAnimationSeed.data?.animationSeed)
+  //       );
+  //     }
+  //   } catch (err) {
+  //     console.log("particles-init-unresponsive. falling back to default");
+  //   }
+  // };
 
   const particlesInit = async (main) => {
     try {
-      const particleAnimationSeed = await axios.get(
-        "http://35.173.248.116:3000/job-range"
-      );
-      console.log(particleAnimationSeed);
-      if (particleAnimationSeed.data) {
-        setParticleSeed(
-          saveAnimationSeed(particleAnimationSeed.data?.animationSeed)
-        );
-      }
+      setParticleSeed(saveAnimationSeed(500));
     } catch (err) {
       console.log("particles-init-unresponsive. falling back to default");
     }
   };
 
   const particlesLoaded = (container) => {
+    console.log("particles");
     console.log(container);
   };
 
