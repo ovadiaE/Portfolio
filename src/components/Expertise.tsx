@@ -33,8 +33,6 @@ const labelsSecond = [
 ];
 
 const labelsThird = [
-    "OpenAI",
-    "Groq",
     "Dalle", 
     "agents", 
     "Github co-pilot"
