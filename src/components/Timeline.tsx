@@ -22,11 +22,7 @@ function Timeline() {
           >
             <h3 className="vertical-timeline-element-title">QA Engineer at Autofleet</h3>
             <h4 className="vertical-timeline-element-subtitle">Tel Aviv</h4>
-            <p>
-              Wrote manual test cases for platform spannning, infastructural changes, always seeking to learn, 
-              I consulted with data scientists and full stack engineers, and coded many personal projects to improve 
-              my workflow. All while gaining an inside look at Product team workflows and gaining a deep understanding of manual testing processes.
-            </p>
+            <p>Designed and executed manual test suites for core infrastructure updates, collaborating closely with data scientists and full-stack engineers to ensure reliability across the stack. Built personal automation tools to streamline workflows, while gaining hands-on experience with product team processes and strengthening my expertise in manual and exploratory testing.            </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
@@ -37,8 +33,7 @@ function Timeline() {
             <h3 className="vertical-timeline-element-title">Full-stack Engineer at MDCalc</h3>
             <h4 className="vertical-timeline-element-subtitle">New York</h4>
             <p>
-              Rebuilt company site with Next.js, focused on SSR and improved average page load speed by 30%.
-            </p>
+            Led the migration of the company site to Next.js, implementing server-side rendering and performance optimizations that boosted average page load speed by 30% and improved SEO rankings.            </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
@@ -49,7 +44,7 @@ function Timeline() {
             <h3 className="vertical-timeline-element-title">Full-stack Engineer Intern at Lagoon</h3>
             <h4 className="vertical-timeline-element-subtitle">Tel Aviv</h4>
             <p>
-              Built dashboard components with react and d3.js for presenting historical data in no-code financial analysis platform. 
+            Designed and implemented React + D3.js dashboards for a financial analysis platform, transforming complex historical datasets into clear, actionable visualizations.
             </p>
           </VerticalTimelineElement>
         </VerticalTimeline>

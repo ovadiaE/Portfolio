@@ -1,4 +1,4 @@
-import TetrisMobile from './Tetris-Mobile'
+// import TetrisMobile from './Tetris-Mobile'
 import TetrisDesktop from './Tetris-Desktop';
 import { useState, useEffect } from 'react';
 
@@ -12,7 +12,7 @@ function TetrisWindow() {
     return () => window.removeEventListener('resize', handleResize); // Cleanup
   }, []);
   
-  return  width < 400 ? <TetrisMobile/> : <TetrisDesktop/>
+  return  width > 400 ?<TetrisDesktop/> : null
   
 }
 

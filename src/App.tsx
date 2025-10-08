@@ -2,8 +2,8 @@ import React, {useState, useEffect} from "react";
 import HomeParticles from "./particles/HomeParticles";
 
 import {
- Tetris,
-  Chess,
+//  Tetris,
+//   Chess,
   Main,
   Timeline,
   Expertise,
@@ -82,8 +82,8 @@ function App() {
                 <Expertise/>
                 <Timeline/>
                 <Project/>
-                <Chess/>
-                <Tetris/>
+                {/* <Chess/>
+                <Tetris/> */}
                 <Contact/>
                 <Footer />
                 </FadeIn>

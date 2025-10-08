@@ -1,7 +1,7 @@
 import React from "react";
 import '@fortawesome/free-regular-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faReact, faDocker, faPython, faJira } from '@fortawesome/free-brands-svg-icons';
+import { faReact, faDocker,  faJira } from '@fortawesome/free-brands-svg-icons';
 import Chip from '@mui/material/Chip';
 import '../assets/styles/Expertise.scss';
 
@@ -24,26 +24,17 @@ const labelsSecond = [
     "GitHub Actions",
     "Docker",
     "AWS",
-    "EC2", 
     "IaC",
-    "microservices",
     "GCP",
     "Linux",
     "Kubernetes",
 ];
 
-const labelsThird = [
-    "Dalle", 
-    "agents", 
-    "Github co-pilot"
-];
-
 const labelsFourth = [
-    "project management",
     "Regression testing",
     "Black Box testing",
     "load testing", 
-    "latency testing",
+    "Jest",
     "Jira",
 ];
 
@@ -58,9 +49,8 @@ function Expertise() {
                     <FontAwesomeIcon icon={faReact} size="3x"/>
                     <h3>Full Stack Web Development</h3>
                     <p>
-                        I build web applications using modern frameworks and libraries, 
-                        notably Next.js, Node, and TypeScript. I bring full-stack skills, a high level 
-                        understanding of the SDLC process and a specialization in software testing.
+                        I have experience in the full spectrum of web engineering, from developing 
+                        responsive front-end interfaces, to efficient back-end services.
                     </p>
                     <div className="flex-chips">
                         <span className="chip-title">Tech stack:</span>
@@ -72,11 +62,10 @@ function Expertise() {
 
                 <div className="skill">
                     <FontAwesomeIcon icon={faDocker} size="3x"/>
-                    <h3>DevOps & Automation</h3>
-                    <p>
-                       I love platform infastructure. From analyzing network traffic for root cause analysis to 
-                        managing deployments, updating deployment pipelines and working with containerization tools, 
-                        I'm obsessed with all things DevOps.
+                    <h3>DevOps & Cloud Monitoring</h3>
+                    <p> I have experience managing deployments, 
+                        monitoring cloud production environments for real time systems, 
+                        working with containerization tools and operating in cross functional teams to ensure smooth deployments and product uptime.  
                     </p>
                     <div className="flex-chips">
                         <span className="chip-title">Tech stack:</span>
@@ -87,27 +76,13 @@ function Expertise() {
                 </div>
 
                 <div className="skill">
-                    <FontAwesomeIcon icon={faPython} size="3x"/>
-                    <h3>GenAI & LLM</h3>
-                    <p>
-                        Always researching new tools to help me become the best engineer I can be, 
-                        staying relevant and up to date with the cutting edge, speeding up workflows while maintaining high standards.
-                    </p>
-                    <div className="flex-chips">
-                        <span className="chip-title">Tech stack:</span>
-                        {labelsThird.map((label, index) => (
-                            <Chip key={index} className='chip' label={label} />
-                        ))}
-                    </div>
-                </div>
-
-                <div className="skill">
                     <FontAwesomeIcon icon={faJira} size="3x"/>
-                    <h3>QA and Product</h3>
+                    <h3>QA and Automation</h3>
                     <p>
-                        Quality over everything. 
+                        Quality is critical. 
                         Shipping working products is the name of the game and I 
-                        have a proven track record of managing testing processes for enterprise level software.
+                        have a proven track record of managing full testing cycles and finding bugs before users do. 
+        
                     </p>
                     <div className="flex-chips">
                         <span className="chip-title">Tech stack:</span>

@@ -67,7 +67,6 @@ function Contact() {
             <div className="form-flex">
               <TextField
                 required
-                label="Your Name"
                 placeholder="What's your name?"
                 value={name}
                 onChange={(e) => {setName(e.target.value)}}
@@ -76,7 +75,6 @@ function Contact() {
               />
               <TextField
                 required
-                label="Email / Phone"
                 placeholder="How can I reach you?"
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
@@ -86,7 +84,6 @@ function Contact() {
             </div>
             <TextField
               required
-              label="Message"
               placeholder="Send me any inquiries or questions"
               multiline
               rows={10}
