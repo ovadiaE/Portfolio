@@ -49,8 +49,7 @@ function Expertise() {
                     <FontAwesomeIcon icon={faReact} size="3x"/>
                     <h3>Full Stack Web Development</h3>
                     <p>
-                        I have experience in the full spectrum of web engineering, from developing 
-                        responsive front-end interfaces, to efficient back-end services.
+                    I handle every part of the website experience — from designing smooth, responsive interfaces to building fast, reliable back-end systems that keep everything running seamlessly.
                     </p>
                     <div className="flex-chips">
                         <span className="chip-title">Tech stack:</span>
@@ -63,9 +62,7 @@ function Expertise() {
                 <div className="skill">
                     <FontAwesomeIcon icon={faDocker} size="3x"/>
                     <h3>DevOps & Cloud Monitoring</h3>
-                    <p> I have experience managing deployments, 
-                        monitoring cloud production environments for real time systems, 
-                        working with containerization tools and operating in cross functional teams to ensure smooth deployments and product uptime.  
+                    <p> I make sure your website or app runs smoothly behind the scenes — from managing deployments to monitoring live systems in the cloud. I use modern tools to keep everything stable, secure, and online, so your users always get a fast and reliable experience. 
                     </p>
                     <div className="flex-chips">
                         <span className="chip-title">Tech stack:</span>

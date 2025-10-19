@@ -33,7 +33,7 @@ function Timeline() {
             <h3 className="vertical-timeline-element-title">Full-stack Engineer at MDCalc</h3>
             <h4 className="vertical-timeline-element-subtitle">New York</h4>
             <p>
-            Led the migration of the company site to Next.js, implementing server-side rendering and performance optimizations that boosted average page load speed by 30% and improved SEO rankings.            </p>
+            Led the migration of the company site to Next.js, implementing server-side rendering and performance optimizations that improved the average page load speed by 30% and improved SEO rankings.            </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
