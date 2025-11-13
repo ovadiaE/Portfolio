@@ -62,3 +62,14 @@
         }
     }
 }
+
+@media screen {
+    @media (max-width: 370px) {
+        .projects-container .projects-grid {
+            grid-gap: 10px;
+        }
+        .projects-container .projects-grid .project {
+           font-size: small;
+        }
+    }
+}
