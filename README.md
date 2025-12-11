@@ -1,4 +1,4 @@
-🐣 Developer Easter Eggs
+Thanks for checking out the codebase.
 
 This project includes a couple of optional hidden components (hint: games 👀) for anyone curious enough to explore the codebase.
 
