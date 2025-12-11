@@ -1,6 +1,6 @@
 Thanks for checking out the codebase.
 
-This project includes a couple of optional hidden components (hint: games 👀) for anyone curious enough to explore the codebase.
+This project includes a couple of optional hidden components for anyone curious enough to explore the codebase.
 
 If you want to enable them locally, follow these steps:
 
