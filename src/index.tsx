@@ -25,10 +25,11 @@ import './index.scss';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Plausible from 'plausible-tracker';
+// import { init } from '@plausible-analytics/tracker'
 
 // Initialize Plausible
 const plausible = Plausible({
-  domain: 'https://ovi-landing-page.netlify.app/', // Replace with your domain
+  domain: 'ovi-landing-page.netlify.app/', // Replace with your domain
   trackLocalhost: true, // Enabled to track localhost
 });
 
